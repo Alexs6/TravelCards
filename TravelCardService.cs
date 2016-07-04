@@ -6,6 +6,11 @@ namespace ConsoleApplication3
 {
     public class TravelCardService
     {
+        /// <summary>
+        /// Сортировка списка карточек. Итоговый список возвращается через ref
+        /// </summary>
+        /// <param name="travelCardList">Изначальный список карточек</param>
+        /// <returns>Текст ошибки. String.Empty в случае удачной сортировки</returns>
         public string SortTravelCards(ref List<TravelCard> travelCardList)
         {
 
